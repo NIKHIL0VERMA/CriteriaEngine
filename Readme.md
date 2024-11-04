@@ -41,18 +41,24 @@ pip install fastapi uvicorn pydantic pytest motor
 
 4. **Set up MongoDB:**
    Ensure you have MongoDB installed and running. You can use a local instance or a cloud-based solution like MongoDB Atlas.
+   Create a `.env` file in backend folder with following contents.
+   ```env
+   MONGODB_URL = "<YOUR MONGODB CONNECTION URL>"
+   DATABASE_NAME = "rule_engine"
+   COLLECTION_NAME = "rules"
+   ```
 
-5. **Run the application:**
+6. **Run the application:**
    ```bash
    uvicorn backend.main:app --reload
    ```
 
-6. **In new Terminal:**
+7. **In new Terminal:**
     ```
     cd ../frontend
     npm install
     ```
-7. **Run the NextJS frontend**
+8. **Run the NextJS frontend**
     ```
     npm run dev
     ```
