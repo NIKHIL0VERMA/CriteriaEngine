@@ -1,7 +1,14 @@
 # CriteriaEngine
 
 ## Objective
-The CriteriaEngine application is designed to determine user eligibility based on various attributes such as age, department, income, and spending. It utilizes an Abstract Syntax Tree (AST) to represent conditional rules, allowing for dynamic creation, combination, and modification of these rules.
+The CriteriaEngine application is designed to determine user eligibility based on various attributes such as age, department, income, and experience. It utilizes an Abstract Syntax Tree (AST) to represent conditional rules, allowing for dynamic creation, combination, and modification of these rules.
+
+## Video Demo
+
+
+https://github.com/user-attachments/assets/f8207b3f-0d87-4054-be54-042e351a55de
+
+
 
 ## Dependencies
 To set up and run the application, ensure you have the following dependencies installed:
